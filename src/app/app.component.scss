@@ -1,0 +1,46 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.records {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.record {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.name {
+  font-size: 20px;
+}
+.name, .login, .password {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  .value {
+    flex: 1;
+  }
+}
+.form {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.create-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.keychain-actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  & > * {
+    width: 100%;
+  }
+  gap: 16px;
+}

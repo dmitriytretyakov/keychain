@@ -1,0 +1,26 @@
+@import "scss/input";
+@import "scss/button";
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 1,
+    'wght' 200,
+    'GRAD' 0,
+    'opsz' 24
+}
+body {
+  font-family: -apple-system,BlinkMacSystemFont,sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+li {
+  line-height: 1.4;
+}
+.link, a {
+  color: mediumvioletred;
+  cursor: pointer;
+}
